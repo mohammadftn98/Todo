@@ -1,0 +1,78 @@
+body {
+    background-color: #343d5a;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header .container {
+    height: 100%;
+}
+
+.footer .container {
+    height: 100%;
+}
+
+.contant {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.add-todo {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.add-todo .row a {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#input-todo {
+    height: 40px;
+    width: 100%;
+    background-color: #242c40;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+}
+
+.showed-todo {
+    padding: 3px;
+    position: relative;
+    min-height: 40px;
+    border: 1px solid #343d5a;
+    background-color: #41396e;
+    box-sizing: border-box;
+}
+
+.delete-logo {
+    position: absolute;
+    right: 2px;
+    min-width: 35px;
+}
+
+.todo-name {
+    position: absolute;
+    left: 2px;
+    max-width: 85%;
+    min-height: 100%;
+    overflow-wrap: normal;
+    color: white;
+}
